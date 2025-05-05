@@ -13,11 +13,11 @@
       <div class="flex flex-col gap-4 md:flex-row justify-center lg:justify-start">
 
         <button type="button"
-          class="rounded-md text-white bg-blue-600 h-11 px-8 hover:bg-blue-700 transition duration-200">Get
+          class="rounded-md text-white bg-blue-600 h-11 px-8 hover:bg-blue-700 cursor-pointer transition duration-200">Get
           Started</button>
 
         <button type="button"
-          class=" border rounded-md border-gray-400 h-11 px-8 hover:bg-gray-100 transition duration-200"><router-link
+          class=" border rounded-md border-gray-400 h-11 px-8 hover:bg-gray-100 cursor-pointer transition duration-200"><router-link
             to="/create">Create
             Invoice</router-link></button>
 
