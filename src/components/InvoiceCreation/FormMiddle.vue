@@ -115,7 +115,7 @@
 </template>
 
 <script>
-import { RiCloseLargeFill, RiAddLargeLine, RiLoopRightLine } from 'vue-remix-icons';
+import { RiCloseLargeFill, RiAddLargeLine, RiLoopRightLine } from '@remixicon/vue';
 
 export default {
     name: 'FormMiddle',

@@ -1,24 +1,18 @@
 <template>
     <div class="container mx-auto p-6 bg-white shadow-lg rounded-lg m-5">
-        <div class="flex flex-col md:flex-row justify-between mb-6">
-            <div
-                class="w-full md:w-1/4 border border-gray-400 rounded-sm flex items-center justify-center h-auto text-gray-400">
-                <label class="cursor-pointer">
-                    Add your Logo
-                    <input type="file" accept="image/*" class="hidden" @change="handleLogoUpload">
-                </label>
-            </div>
-            <div class="md:text-right mt-4 md:mt-0">
-                <h1 class="font-bold text-2xl">INVOICE</h1>
-                <div class="flex items-center md:justify-end">
-                    <label for="invoiceNumber" class="mr-2">#</label>
-                    <input id="invoiceNumber" type="text" class="border p-2 rounded" v-model="invoiceNumber" readonly>
-                </div>
+
+        <div class=" mt-4 md:mt-0">
+            <h1 class="font-bold text-2xl">INVOICE</h1>
+            <div class="flex items-center">
+                <label for="invoiceNumber" class="mr-2">#</label>
+                <input id="invoiceNumber" type="text" class="border p-2 rounded" v-model="invoiceNumber" readonly>
             </div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mt-3.5">
             <div>
+                <label for="">From</label>
                 <input type="text" class="border p-2 rounded w-full" placeholder="Who is this from?" v-model="fromName">
 
                 <section class="grid grid-rows-1 md:grid-cols-2 mt-2.5 gap-4">

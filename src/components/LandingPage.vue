@@ -54,7 +54,7 @@
 </template>
 
 <script>
-import { RiHistoryLine, RiFileTextLine } from 'vue-remix-icons';
+import { RiHistoryLine, RiFileTextLine } from '@remixicon/vue';
 export default {
   name: "LandingPage",
   components: {
