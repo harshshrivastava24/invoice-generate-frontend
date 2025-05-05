@@ -43,7 +43,7 @@
             <router-link to="/history"
                 class="w-full py-2 text-center text-gray-700 hover:bg-gray-100 rounded-md">History</router-link>
             <button type="button"
-                class="border rounded-md h-10 border-gray-200 mb-2 w-full px-4 pb-4 flex flex-col items-center gap-3">Sign
+                class="border rounded-md h-10 border-gray-200 mb-2 w-full max-w-xs px-4 pb-4 flex flex-col items-center gap-3">Sign
                 In</button>
             <button type="button" class="rounded-md h-10 bg-blue-600 text-white w-full max-w-xs">Sign Up</button>
         </div>
