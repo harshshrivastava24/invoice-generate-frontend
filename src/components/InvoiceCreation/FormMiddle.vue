@@ -7,7 +7,7 @@
             <div class="w-24 text-right">Amount</div>
             <div class="w-12"></div>
         </div>
-
+        <!-- Item Details and Add Fields -->
         <div v-for="(item, index) in itemDetails" :key="index"
             class="flex flex-col md:flex-row md:items-center border border-gray-200 rounded-md p-3 md:p-2 space-y-3 md:space-y-0 md:space-x-3">
             <input v-model="item.description" type="text" placeholder="Description of item/service..."
@@ -42,6 +42,7 @@
             <span>Add Item</span>
         </button>
 
+        <!-- Other Details and Tax, Discounts etc. -->
         <div class="mt-10 flex flex-col md:flex-row md:justify-between md:items-start gap-8">
             <div class="flex flex-col gap-6 md:w-1/2">
                 <div>

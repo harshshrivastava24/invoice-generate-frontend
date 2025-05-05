@@ -8,7 +8,7 @@
                     class="border p-2 rounded w-40" :value="amount" readonly /> </div>
         </div>
 
-        <!-- Static data fields -->
+
         <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mt-6">
             <div>
                 <label for="fromName">From</label>
@@ -43,7 +43,7 @@
             </div>
         </div>
 
-        <!-- Action Buttons -->
+
         <div class="flex justify-end mt-6 space-x-4">
             <button @click="saveInvoice" class="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700">
                 Save Changes

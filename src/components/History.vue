@@ -41,7 +41,7 @@ export default {
                 { invoiceNumber: 103, date: '2024-04-15', total: 789.99, currencySymbol: '£', billTo: 'Gamma Inc', status: 'Paid' },
                 { invoiceNumber: 104, date: '2024-04-18', total: 350, currencySymbol: '₹', billTo: 'Delta Pvt Ltd', status: 'Pending' },
                 { invoiceNumber: 105, date: '2024-04-20', total: 650, currencySymbol: '$', billTo: 'Omega LLC', status: 'Paid' },
-                // More sample invoices
+
             ]
         };
     }
