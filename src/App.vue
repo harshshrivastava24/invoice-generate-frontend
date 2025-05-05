@@ -7,7 +7,7 @@
         </main>
 
         <footer class="bg-gray-100 text-center py-4 text-gray-700 text-sm">
-            &copy; 2024 Invoice Generator. All rights reserved.
+            &copy; 2025 Invoice Generator. All rights reserved.
         </footer>
     </div>
 </template>

@@ -3,8 +3,10 @@
     <div class="border border-gray-200 shadow-md">
         <nav class="flex items-center justify-between w-[92%] px-3 py-2 md:px-6 md:py-4 mx-auto">
             <div class="flex items-center gap-2">
-                <img src="../assets/logo.svg" class="h-10 w-10" alt="Logo">
-                <h1 class="font-bold text-xl md:text-2xl">Invoicely</h1>
+                <router-link to="/"><img src="../assets/logo.svg" class="h-10 w-10" alt="Logo"></router-link>
+                <router-link to="/">
+                    <h1 class="font-bold text-xl md:text-2xl">Invoicely</h1>
+                </router-link>
             </div>
 
             <!-- Center Menu Items -->

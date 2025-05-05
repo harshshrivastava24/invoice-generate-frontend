@@ -31,7 +31,7 @@
     </h1>
 
 
-    <div class="flex flex-col md:flex-row md:gap-16 gap-12 justify-center items-stretch">
+    <div class="flex flex-col items-center md:flex-row md:gap-16 gap-12 justify-center md:items-stretch">
 
       <div class="flex flex-col items-center justify-center border rounded-lg p-6 max-w-xs w-full md:flex-1 shadow-md">
         <RiFileTextLine class="w-10 h-10 mb-4" />
