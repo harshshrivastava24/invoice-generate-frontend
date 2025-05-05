@@ -19,13 +19,13 @@ Navigation menu for easy page access
 Tailwind CSS styling for modern UI     
               
 # Technologies Used
-Vue.js - Frontend framework      
-Vue Router - SPA routing          
-Tailwind CSS - Utility-first CSS framework       
-Remix Icons - Icon library     
-Vite - Development server and build tooling       
+Vue.js                      
+Vue Router          
+Tailwind CSS             
+Remix Icons          
+Vite     
 
-This template should help get you started developing with Vue 3 in Vite.
+
 
 
 ## Project Setup
