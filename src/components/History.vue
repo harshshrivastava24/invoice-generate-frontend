@@ -18,6 +18,11 @@
                             invoice.total.toFixed(2) }}</p>
                         <p class="text-gray-600 truncate"><strong>Bill To:</strong> {{ invoice.billTo }}</p>
                     </div>
+                    <div class="mt-4">
+                        <router-link
+                            :to="{ name: 'EditPage', params: { invoiceNumber: invoice.invoiceNumber, amount: invoice.total } }"
+                            class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition duration-300">Edit</router-link>
+                    </div>
                 </div>
             </div>
         </div>

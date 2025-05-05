@@ -28,15 +28,15 @@
             </div>
 
             <div class="flex flex-col gap-4 max-w-md mx-auto p-4">
-                <div class="flex flex-col md:flex-row md:items-center md:justify-end md:gap-4">
+                <div class="flex flex-col md:flex-row md:items-center md:justify-end md:gap-4 w-full">
                     <label class="mb-1 md:mb-0 md:w-24 text-left md:text-right" for="date">Date</label>
                     <input id="date" type="date" class="border rounded p-2 w-full md:flex-1" v-model="date" />
                 </div>
-                <div class="flex flex-col md:flex-row md:items-center md:gap-4">
+                <div class="flex flex-col md:flex-row md:items-center md:justify-end md:gap-4 w-full">
                     <label class="mb-1 md:mb-0 md:w-24 text-left md:text-right" for="dueDate">Due Date</label>
                     <input id="dueDate" type="date" class="border rounded p-2 w-full md:flex-1" v-model="dueDate" />
                 </div>
-                <div class="flex flex-col md:flex-row md:items-center md:gap-4">
+                <div class="flex flex-col md:flex-row md:items-center md:justify-end md:gap-4 w-full">
                     <label class="mb-1 md:mb-0 md:w-24 text-left md:text-right" for="gstNum">GST no.</label>
                     <input id="gstNum" type="text" class="border rounded p-2 w-full md:flex-1" v-model="gstNum" />
                 </div>
