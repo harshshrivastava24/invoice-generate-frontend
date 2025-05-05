@@ -9,11 +9,12 @@
 
             <!-- Center Menu Items -->
             <div class="hidden md:flex space-x-8 justify-center flex-1">
-                <a href="/" class="text-gray-700 hover:text-gray-400 transition duration-200 font-medium">Home</a>
-                <a href="/create"
-                    class="text-gray-700 hover:text-gray-400 transition duration-200 font-medium">Create</a>
-                <a href="/history"
-                    class="text-gray-700 hover:text-gray-400 transition duration-200 font-medium">History</a>
+                <router-link to="/"
+                    class="text-gray-700 hover:text-gray-400 transition duration-200 font-medium">Home</router-link>
+                <router-link to="/create"
+                    class="text-gray-700 hover:text-gray-400 transition duration-200 font-medium">Create</router-link>
+                <router-link to="/history"
+                    class="text-gray-700 hover:text-gray-400 transition duration-200 font-medium">History</router-link>
             </div>
 
             <div class="hidden md:flex items-center justify-center gap-4">

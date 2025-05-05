@@ -1,9 +1,9 @@
 # invoice-generator-frontend-Harsh
 
-# Invoice Generator           
+# Invoice Generator                          
 A responsive Invoice Generator web application built with Vue.js and Tailwind CSS. Create, edit, and manage invoices easily with a clean and intuitive user interface optimized for desktop and mobile.
 
-# Features          
+# Features                                                                                                        
 Landing page with business logo and introduction
 Create new invoices with detailed line items
 Edit existing invoices
