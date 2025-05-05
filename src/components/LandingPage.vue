@@ -12,9 +12,13 @@
 
       <div class="flex flex-col gap-4 md:flex-row justify-center lg:justify-start">
 
-        <button type="button" class="rounded-md text-white bg-blue-600 h-11 px-8">Get Started</button>
+        <button type="button"
+          class="rounded-md text-white bg-blue-600 h-11 px-8 hover:bg-blue-700 transition duration-200">Get
+          Started</button>
 
-        <button type="button" class=" border rounded-md border-gray-400 h-11 px-8"><router-link to="/create">Create
+        <button type="button"
+          class=" border rounded-md border-gray-400 h-11 px-8 hover:bg-gray-100 transition duration-200"><router-link
+            to="/create">Create
             Invoice</router-link></button>
 
       </div>
@@ -33,14 +37,16 @@
 
     <div class="flex flex-col items-center md:flex-row md:gap-16 gap-12 justify-center md:items-stretch">
 
-      <div class="flex flex-col items-center justify-center border rounded-lg p-6 max-w-xs w-full md:flex-1 shadow-md">
+      <div
+        class="flex flex-col items-center justify-center border border-gray-200 shadow-lg rounded-lg p-6 max-w-xs w-full md:flex-1">
         <RiFileTextLine class="w-10 h-10 mb-4" />
         <h1 class="font-bold text-xl mb-2">Create Invoices</h1>
         <p class="text-left text-sm md:text-base">Create professional invoices with our easy-to-use form. Add items,
           apply taxes and
           discounts.</p>
       </div>
-      <div class="flex flex-col items-center justify-center border rounded-lg p-6 max-w-xs w-full md:flex-1">
+      <div
+        class="flex flex-col items-center justify-center border border-gray-200 shadow-lg rounded-lg p-6 max-w-xs w-full md:flex-1">
         <RiHistoryLine class="w-10 h-10 mb-4" />
         <h1 class="font-bold text-xl mb-2">Invoice History</h1>
         <p class="text-left text-sm md:text-base">Access your complete invoice history. Filter and search by various
