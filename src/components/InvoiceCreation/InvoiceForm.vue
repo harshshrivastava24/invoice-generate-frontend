@@ -45,7 +45,7 @@
         <FormMiddle />
 
         <div class="flex justify-end mt-6 space-x-4">
-            <button class="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700">Save
+            <button @click="saveInvoice" class="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700">Save
                 Invoice</button>
             <button class="border px-6 py-2 rounded hover:bg-gray-200">Cancel</button>
         </div>
@@ -69,12 +69,9 @@ export default {
         }
     },
     methods: {
-        handleLogoUpload(event) {
-            const file = event.target.files[0];
-            if (file) {
-                console.log("Logo uploaded:", file.name);
-            }
-        },
+        saveInvoice() {
+            alert("Invoice Saved Successfully")
+        }
     },
     components: {
         FormMiddle,
