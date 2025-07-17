@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto p-6 bg-white shadow-lg rounded-lg m-5">
+    <div class="container mx-auto p-6 bg-white shadow-lg rounded-lg m-5 w-[92%]">
 
         <div class=" mt-4 md:mt-0">
             <h1 class="font-bold text-2xl">INVOICE</h1>

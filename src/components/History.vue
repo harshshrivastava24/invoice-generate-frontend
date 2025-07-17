@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto p-6 bg-white shadow-lg rounded-lg m-5">
+    <div class="container mx-auto p-6 bg-white shadow-lg rounded-lg m-5 w-[92%]">
         <h1 class="font-bold text-2xl mb-6">Invoice History</h1>
         <div class="flex flex-wrap -mx-3">
             <div v-for="invoice in invoices" :key="invoice.invoiceNumber" class="w-full sm:w-1/2 lg:w-1/3 px-3 mb-6">
